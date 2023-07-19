@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.navbar {
+    background-color: #746453;
+    height: 100vh;
+    width: 12vw;
+    padding: 12px;
+    transition: transform 0.3s ease-in;
+}
+
+.navbar h3 {
+    margin: 17px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Tektur', cursive;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+
+.navbar li {
+    padding: 60px 20px;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Enjoy\ the\ journey..png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactMain {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    left: 10px;
+}
+
+.ham {}
+
+.cross {
+    margin-left: 140px;
+}
+
+.navbarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.infoContainer {
+    /*background-color: bisque;*/
+    display: flex;
+    height: 80vh;
+    width: 170vh;
+    margin: 110px auto;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.info {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+.img {
+    width: 50%;
+
+}
+
+.name {
+    font-size: 90px;
+    color: #746453;
+    font-family: 'Tektur', cursive;
+}
+
+.hello {
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.detail {
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    color: gray;
+}
+
+.quote {
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    border: outset;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Tektur', cursive;
+    color: #746453;
+    
+  }
+  
+  form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 300px 0 300px;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="phone"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    background-color: #746453;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ccc;
+    color: #746453;
+  }
+  
